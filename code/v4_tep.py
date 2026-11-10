@@ -19,7 +19,7 @@ def extract(part):
             allz=(g[cols].to_numpy()-sc.mean_)/sc.scale_;before=allz[:20];z=allz[20:];assert len(z)==480
             m=z.mean(0);a=abs(m);extra=np.r_[m.mean(),m.std(),m.min(),m.max(),np.median(m),np.quantile(m,.25),np.quantile(m,.75),a.mean(),a.std(),a.max(),np.median(a),np.mean(a>1),np.mean(a>2),np.mean(a>3)];std=z.std(0);center=z-m
             ac=[np.mean(center[:-lag]*center[lag:],0)/np.maximum(std**2,1e-8) for lag in [5,20,60]]
-            row=np.r_[m,a,extra,std,np.quantile(z,.1,axis=0),np.quantile(z,.9,axis=0),z[240:].mean(0)-z[:240].mean(0),np.sqrt(np.mean(np.diff(z,axis=0)**2,axis=0)),*ac,z.reshape(12,40,52).mean(1).std(0)/np.maximum(std,1e-4),m-before.mean(0),np.log1p(std/np.maximum(before.std(0),.05))]
+            row=np.r_[(m,a,extra,std,np.quantile(z,.1,axis=0),np.quantile(z,.9,axis=0),z[240:].mean(0)-z[:240].mean(0),np.sqrt(np.mean(np.diff(z,axis=0)**2,axis=0)),*ac,z.reshape(12,40,52).mean(1).std(0)/np.maximum(std,1e-4),m-before.mean(0),np.log1p(std/np.maximum(before.std(0),.05)))]
             rows.append(row);ids.append((int(f),int(r)))
         del df;gc.collect()
     ids=np.array(ids);np.savez_compressed(dest,x=np.asarray(rows),fault=ids[:,0],run=ids[:,1]);return dict(np.load(dest))

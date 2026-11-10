@@ -27,7 +27,7 @@ The code reads no credential files and makes no network requests. API orchestrat
 From the repository root:
 
 ```sh
-python saved_results/verify_results_20261106_v02.py
+python scripts/verify_saved_results.py
 ```
 
 The original verification manifest covers 25 files. Expected checks include 15 final TEP evaluations passing the nominal criteria, mean coverage `0.8770666666666667`, HAI episode hits of 14/15/13/17/17 for PCA/IsolationForest/fusion/logistic regression/ExtraTrees, and 40 queries with an invariant numerical route. The extended checks include all eight Table S4 rows, 15 length-control passes with coverage `0.8268`, and 30/38 query-event overlaps with evaluation/calibration sets. Additional repository artifacts are described separately and do not retroactively change that historical manifest.
