@@ -1,0 +1,50 @@
+Paper 2 saved-result verification package version 2
+Run: python verify_results_20261106_v02.py
+Requires Python 3.10+; standard library only, no API calls or credentials.
+
+The verifier checks hashes; TEP per-fold counts, nominal bounds and grouped
+separation; HAI window counts and episode hits; paired-effect point estimates;
+history invariance; all eight Table S4 rows; the length control; query overlap.
+It does not rerun training or the bootstrap intervals. Length-control saved
+scores verify calibration counts and threshold application, not feature extraction.
+
+Table S4 mapping (also machine-readable in table_s4_mapping_20261106_v01.csv):
+Fixed model nominal -> fixed_nominal_same_calibration -> calibration_predictions.csv
+Margin, 100 groups -> margin_cal100 -> calibration_predictions.csv
+Margin, 200 groups -> margin_cal200 -> calibration_predictions.csv
+Margin, 400 groups -> margin_cal400 -> calibration_predictions.csv
+Final margin calibration -> guarded_margin_cal400 -> calibration_predictions.csv
+Candidate family nominal -> family_nominal -> tep_predictions.csv
+Candidate family margin -> family_margin -> tep_predictions.csv
+Family plus specialist -> specialist_margin -> tep_predictions.csv
+
+IMPORTANT: family_nominal uses seven candidates (three existing HGB weights,
+existing ExtraTrees, matched ExtraTrees, and two matched HGB weights).
+old_family_nominal_same_calibration uses only the three existing HGB weights;
+it is an additional control, NOT the Candidate family nominal row in Table S4.
+The corresponding results are 3/15 and 4/15, respectively, on identical
+evaluation events. Family margin and specialist results are also included.
+tep_selection.json records their calibration indices and candidate sets.
+
+fault9_AUROC.json supports Table S7; hai_strict_results.json retains the
+chronological feature-view comparisons of Table S9. These files provide saved
+records; the verifier does not recompute every diagnostic AUROC.
+
+history_query_manifest gives source filenames, Testing split, fault/run keys,
+and per-query overlaps with the final calibration/evaluation bindings.
+history_query_overlap gives the selection rule, development ordering and
+per-fold event/run intersections. Training cases are a separate case bank.
+
+length_protocol specifies the single 480-sample, 378-feature control. The
+original trained HGB model and scaler are unchanged; only the Testing segment
+ends at sample 640 instead of 960, followed by recalibration with the same
+indices, targets and threshold grid. The original raw-mean implementation is
+preserved; extra features from the 690-feature candidate are not included.
+length_scores contains all 10500 Testing scores; length_results and predictions
+retain all 15 folds. Table S28 summarizes the reference and this control.
+Execution source is code/round3_checks_20261106_v01.py under the study root.
+
+This package verifies saved outputs, not complete retraining. Original source,
+models and runtime records remain in the study artifacts described in S8-S9.
+The package is prepared locally for sharing, with no public URL assigned.
+Raw prompts, responses, credentials and network logs are excluded.

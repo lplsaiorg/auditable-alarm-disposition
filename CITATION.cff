@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite this research software and the associated manuscript when using these artifacts."
+type: software
+title: "Auditable Alarm Disposition"
+version: 0.1.0
+date-released: 2026-11-10
+authors:
+  - family-names: Zhang
+    given-names: Wu
+  - family-names: Lei
+    given-names: Tianwu
+  - family-names: Xiao
+    given-names: Luo
+  - family-names: Yang
+    given-names: Yong
+repository-code: "https://github.com/lplsaiorg/auditable-alarm-disposition"
+url: "https://github.com/lplsaiorg/auditable-alarm-disposition"
+license: MIT
+abstract: "Research code and saved-result verification for executable evidence role separation and asymmetric risk calibration in industrial alarm disposition."
+keywords:
+  - industrial alarms
+  - evidence provenance
+  - selective classification
+  - reproducible research

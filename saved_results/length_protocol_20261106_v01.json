@@ -1,0 +1,29 @@
+{
+  "control": "matched_480_378_fixed_model",
+  "train_samples": [
+    21,
+    500
+  ],
+  "test_samples": [
+    161,
+    640
+  ],
+  "reference_test_samples": [
+    161,
+    960
+  ],
+  "features": 378,
+  "model": "dynamic_hist_w20",
+  "model_sha256": "34da264f290b3fec19a5407e7bf84ebca4ed2f9e6e8636009770dd6911678b7e",
+  "calibration_binding": "guarded_margin_cal400",
+  "targets": [
+    0.02,
+    0.025
+  ],
+  "evaluation_criteria": [
+    0.05,
+    0.1
+  ],
+  "threshold_grid": "-0.01, 0:0.005:1, 1.01",
+  "selection": "One fixed control, no retuning or model selection. Original trained model reused; training feature equivalence checked before scoring."
+}

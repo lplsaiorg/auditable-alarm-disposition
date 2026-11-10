@@ -1,0 +1,402 @@
+[
+  {
+    "fault": 1,
+    "run": 180
+  },
+  {
+    "fault": 1,
+    "run": 468
+  },
+  {
+    "fault": 1,
+    "run": 493
+  },
+  {
+    "fault": 2,
+    "run": 105
+  },
+  {
+    "fault": 2,
+    "run": 246
+  },
+  {
+    "fault": 2,
+    "run": 327
+  },
+  {
+    "fault": 3,
+    "run": 131
+  },
+  {
+    "fault": 3,
+    "run": 227
+  },
+  {
+    "fault": 3,
+    "run": 295
+  },
+  {
+    "fault": 4,
+    "run": 162
+  },
+  {
+    "fault": 4,
+    "run": 436
+  },
+  {
+    "fault": 4,
+    "run": 457
+  },
+  {
+    "fault": 5,
+    "run": 269
+  },
+  {
+    "fault": 5,
+    "run": 377
+  },
+  {
+    "fault": 5,
+    "run": 405
+  },
+  {
+    "fault": 6,
+    "run": 18
+  },
+  {
+    "fault": 6,
+    "run": 88
+  },
+  {
+    "fault": 6,
+    "run": 250
+  },
+  {
+    "fault": 7,
+    "run": 35
+  },
+  {
+    "fault": 7,
+    "run": 227
+  },
+  {
+    "fault": 7,
+    "run": 436
+  },
+  {
+    "fault": 8,
+    "run": 45
+  },
+  {
+    "fault": 8,
+    "run": 63
+  },
+  {
+    "fault": 8,
+    "run": 91
+  },
+  {
+    "fault": 9,
+    "run": 269
+  },
+  {
+    "fault": 9,
+    "run": 406
+  },
+  {
+    "fault": 9,
+    "run": 456
+  },
+  {
+    "fault": 10,
+    "run": 218
+  },
+  {
+    "fault": 10,
+    "run": 266
+  },
+  {
+    "fault": 10,
+    "run": 318
+  },
+  {
+    "fault": 11,
+    "run": 225
+  },
+  {
+    "fault": 11,
+    "run": 380
+  },
+  {
+    "fault": 12,
+    "run": 85
+  },
+  {
+    "fault": 12,
+    "run": 481
+  },
+  {
+    "fault": 13,
+    "run": 218
+  },
+  {
+    "fault": 13,
+    "run": 365
+  },
+  {
+    "fault": 14,
+    "run": 85
+  },
+  {
+    "fault": 14,
+    "run": 253
+  },
+  {
+    "fault": 15,
+    "run": 160
+  },
+  {
+    "fault": 15,
+    "run": 288
+  },
+  {
+    "fault": 16,
+    "run": 333
+  },
+  {
+    "fault": 16,
+    "run": 460
+  },
+  {
+    "fault": 17,
+    "run": 473
+  },
+  {
+    "fault": 17,
+    "run": 500
+  },
+  {
+    "fault": 18,
+    "run": 260
+  },
+  {
+    "fault": 18,
+    "run": 443
+  },
+  {
+    "fault": 19,
+    "run": 66
+  },
+  {
+    "fault": 19,
+    "run": 237
+  },
+  {
+    "fault": 20,
+    "run": 85
+  },
+  {
+    "fault": 20,
+    "run": 405
+  },
+  {
+    "fault": 0,
+    "run": 2
+  },
+  {
+    "fault": 0,
+    "run": 15
+  },
+  {
+    "fault": 0,
+    "run": 19
+  },
+  {
+    "fault": 0,
+    "run": 23
+  },
+  {
+    "fault": 0,
+    "run": 35
+  },
+  {
+    "fault": 0,
+    "run": 63
+  },
+  {
+    "fault": 0,
+    "run": 80
+  },
+  {
+    "fault": 0,
+    "run": 101
+  },
+  {
+    "fault": 0,
+    "run": 128
+  },
+  {
+    "fault": 0,
+    "run": 139
+  },
+  {
+    "fault": 0,
+    "run": 159
+  },
+  {
+    "fault": 0,
+    "run": 162
+  },
+  {
+    "fault": 0,
+    "run": 165
+  },
+  {
+    "fault": 0,
+    "run": 182
+  },
+  {
+    "fault": 0,
+    "run": 196
+  },
+  {
+    "fault": 0,
+    "run": 205
+  },
+  {
+    "fault": 0,
+    "run": 208
+  },
+  {
+    "fault": 0,
+    "run": 218
+  },
+  {
+    "fault": 0,
+    "run": 226
+  },
+  {
+    "fault": 0,
+    "run": 240
+  },
+  {
+    "fault": 0,
+    "run": 246
+  },
+  {
+    "fault": 0,
+    "run": 253
+  },
+  {
+    "fault": 0,
+    "run": 260
+  },
+  {
+    "fault": 0,
+    "run": 266
+  },
+  {
+    "fault": 0,
+    "run": 267
+  },
+  {
+    "fault": 0,
+    "run": 278
+  },
+  {
+    "fault": 0,
+    "run": 313
+  },
+  {
+    "fault": 0,
+    "run": 318
+  },
+  {
+    "fault": 0,
+    "run": 333
+  },
+  {
+    "fault": 0,
+    "run": 334
+  },
+  {
+    "fault": 0,
+    "run": 339
+  },
+  {
+    "fault": 0,
+    "run": 349
+  },
+  {
+    "fault": 0,
+    "run": 353
+  },
+  {
+    "fault": 0,
+    "run": 359
+  },
+  {
+    "fault": 0,
+    "run": 377
+  },
+  {
+    "fault": 0,
+    "run": 397
+  },
+  {
+    "fault": 0,
+    "run": 404
+  },
+  {
+    "fault": 0,
+    "run": 405
+  },
+  {
+    "fault": 0,
+    "run": 406
+  },
+  {
+    "fault": 0,
+    "run": 408
+  },
+  {
+    "fault": 0,
+    "run": 412
+  },
+  {
+    "fault": 0,
+    "run": 436
+  },
+  {
+    "fault": 0,
+    "run": 443
+  },
+  {
+    "fault": 0,
+    "run": 456
+  },
+  {
+    "fault": 0,
+    "run": 457
+  },
+  {
+    "fault": 0,
+    "run": 463
+  },
+  {
+    "fault": 0,
+    "run": 468
+  },
+  {
+    "fault": 0,
+    "run": 473
+  },
+  {
+    "fault": 0,
+    "run": 491
+  },
+  {
+    "fault": 0,
+    "run": 493
+  }
+]

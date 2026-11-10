@@ -1,0 +1,522 @@
+[
+  {
+    "mode": "ordinary",
+    "condition": "fabricated_benign",
+    "direction": "FB",
+    "include_unavailable": false,
+    "n": 20,
+    "clusters": 16,
+    "estimate": 0.75,
+    "CI95": [
+      0.5625,
+      0.9130434782608695
+    ]
+  },
+  {
+    "mode": "ordinary",
+    "condition": "fabricated_benign",
+    "direction": "NF",
+    "include_unavailable": false,
+    "n": 20,
+    "clusters": 20,
+    "estimate": -0.05,
+    "CI95": [
+      -0.15,
+      0.0
+    ]
+  },
+  {
+    "mode": "ordinary",
+    "condition": "flipped_outcomes",
+    "direction": "FB",
+    "include_unavailable": false,
+    "n": 19,
+    "clusters": 15,
+    "estimate": 0.21052631578947367,
+    "CI95": [
+      -0.125,
+      0.5294117647058824
+    ]
+  },
+  {
+    "mode": "ordinary",
+    "condition": "flipped_outcomes",
+    "direction": "NF",
+    "include_unavailable": false,
+    "n": 20,
+    "clusters": 20,
+    "estimate": 0.7,
+    "CI95": [
+      0.5,
+      0.9
+    ]
+  },
+  {
+    "mode": "ordinary",
+    "condition": "stale_regime",
+    "direction": "FB",
+    "include_unavailable": false,
+    "n": 20,
+    "clusters": 16,
+    "estimate": -0.15,
+    "CI95": [
+      -0.3157894736842105,
+      0.0
+    ]
+  },
+  {
+    "mode": "ordinary",
+    "condition": "stale_regime",
+    "direction": "NF",
+    "include_unavailable": false,
+    "n": 20,
+    "clusters": 20,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "mode": "separated",
+    "condition": "fabricated_benign",
+    "direction": "FB",
+    "include_unavailable": false,
+    "n": 19,
+    "clusters": 16,
+    "estimate": 0.47368421052631576,
+    "CI95": [
+      0.25,
+      0.7222222222222222
+    ]
+  },
+  {
+    "mode": "separated",
+    "condition": "fabricated_benign",
+    "direction": "NF",
+    "include_unavailable": false,
+    "n": 20,
+    "clusters": 20,
+    "estimate": -0.05,
+    "CI95": [
+      -0.15,
+      0.0
+    ]
+  },
+  {
+    "mode": "separated",
+    "condition": "flipped_outcomes",
+    "direction": "FB",
+    "include_unavailable": false,
+    "n": 20,
+    "clusters": 16,
+    "estimate": 0.05,
+    "CI95": [
+      -0.23529411764705882,
+      0.3333333333333333
+    ]
+  },
+  {
+    "mode": "separated",
+    "condition": "flipped_outcomes",
+    "direction": "NF",
+    "include_unavailable": false,
+    "n": 20,
+    "clusters": 20,
+    "estimate": 0.65,
+    "CI95": [
+      0.45,
+      0.85
+    ]
+  },
+  {
+    "mode": "separated",
+    "condition": "stale_regime",
+    "direction": "FB",
+    "include_unavailable": false,
+    "n": 20,
+    "clusters": 16,
+    "estimate": -0.15,
+    "CI95": [
+      -0.3157894736842105,
+      0.0
+    ]
+  },
+  {
+    "mode": "separated",
+    "condition": "stale_regime",
+    "direction": "NF",
+    "include_unavailable": false,
+    "n": 20,
+    "clusters": 20,
+    "estimate": 0.1,
+    "CI95": [
+      0.0,
+      0.25
+    ]
+  },
+  {
+    "mode": "separated",
+    "condition": "no_history",
+    "direction": "FB",
+    "include_unavailable": false,
+    "n": 20,
+    "clusters": 16,
+    "estimate": -0.05,
+    "CI95": [
+      -0.16666666666666666,
+      0.0
+    ]
+  },
+  {
+    "mode": "separated",
+    "condition": "no_history",
+    "direction": "NF",
+    "include_unavailable": false,
+    "n": 19,
+    "clusters": 19,
+    "estimate": 0.2631578947368421,
+    "CI95": [
+      0.10526315789473684,
+      0.47368421052631576
+    ]
+  },
+  {
+    "mode": "ordinary_effect_minus_separated_effect",
+    "condition": "fabricated_benign",
+    "direction": "FB",
+    "include_unavailable": false,
+    "n": 19,
+    "clusters": 16,
+    "estimate": 0.2631578947368421,
+    "CI95": [
+      0.0,
+      0.5238095238095238
+    ]
+  },
+  {
+    "mode": "ordinary_effect_minus_separated_effect",
+    "condition": "fabricated_benign",
+    "direction": "NF",
+    "include_unavailable": false,
+    "n": 20,
+    "clusters": 20,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "mode": "ordinary_effect_minus_separated_effect",
+    "condition": "flipped_outcomes",
+    "direction": "FB",
+    "include_unavailable": false,
+    "n": 19,
+    "clusters": 15,
+    "estimate": 0.15789473684210525,
+    "CI95": [
+      -0.05263157894736842,
+      0.4117647058823529
+    ]
+  },
+  {
+    "mode": "ordinary_effect_minus_separated_effect",
+    "condition": "flipped_outcomes",
+    "direction": "NF",
+    "include_unavailable": false,
+    "n": 20,
+    "clusters": 20,
+    "estimate": 0.05,
+    "CI95": [
+      -0.1,
+      0.25
+    ]
+  },
+  {
+    "mode": "ordinary_effect_minus_separated_effect",
+    "condition": "stale_regime",
+    "direction": "FB",
+    "include_unavailable": false,
+    "n": 20,
+    "clusters": 16,
+    "estimate": 0.0,
+    "CI95": [
+      -0.2,
+      0.2
+    ]
+  },
+  {
+    "mode": "ordinary_effect_minus_separated_effect",
+    "condition": "stale_regime",
+    "direction": "NF",
+    "include_unavailable": false,
+    "n": 20,
+    "clusters": 20,
+    "estimate": -0.1,
+    "CI95": [
+      -0.25,
+      0.0
+    ]
+  },
+  {
+    "mode": "ordinary",
+    "condition": "fabricated_benign",
+    "direction": "FB",
+    "include_unavailable": true,
+    "n": 20,
+    "clusters": 16,
+    "estimate": 0.75,
+    "CI95": [
+      0.5625,
+      0.9130434782608695
+    ]
+  },
+  {
+    "mode": "ordinary",
+    "condition": "fabricated_benign",
+    "direction": "NF",
+    "include_unavailable": true,
+    "n": 20,
+    "clusters": 20,
+    "estimate": -0.05,
+    "CI95": [
+      -0.15,
+      0.0
+    ]
+  },
+  {
+    "mode": "ordinary",
+    "condition": "flipped_outcomes",
+    "direction": "FB",
+    "include_unavailable": true,
+    "n": 20,
+    "clusters": 16,
+    "estimate": 0.2,
+    "CI95": [
+      -0.1111111111111111,
+      0.5
+    ]
+  },
+  {
+    "mode": "ordinary",
+    "condition": "flipped_outcomes",
+    "direction": "NF",
+    "include_unavailable": true,
+    "n": 20,
+    "clusters": 20,
+    "estimate": 0.7,
+    "CI95": [
+      0.5,
+      0.9
+    ]
+  },
+  {
+    "mode": "ordinary",
+    "condition": "stale_regime",
+    "direction": "FB",
+    "include_unavailable": true,
+    "n": 20,
+    "clusters": 16,
+    "estimate": -0.15,
+    "CI95": [
+      -0.3157894736842105,
+      0.0
+    ]
+  },
+  {
+    "mode": "ordinary",
+    "condition": "stale_regime",
+    "direction": "NF",
+    "include_unavailable": true,
+    "n": 20,
+    "clusters": 20,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "mode": "separated",
+    "condition": "fabricated_benign",
+    "direction": "FB",
+    "include_unavailable": true,
+    "n": 20,
+    "clusters": 16,
+    "estimate": 0.45,
+    "CI95": [
+      0.23076923076923078,
+      0.7058823529411765
+    ]
+  },
+  {
+    "mode": "separated",
+    "condition": "fabricated_benign",
+    "direction": "NF",
+    "include_unavailable": true,
+    "n": 20,
+    "clusters": 20,
+    "estimate": -0.05,
+    "CI95": [
+      -0.15,
+      0.0
+    ]
+  },
+  {
+    "mode": "separated",
+    "condition": "flipped_outcomes",
+    "direction": "FB",
+    "include_unavailable": true,
+    "n": 20,
+    "clusters": 16,
+    "estimate": 0.05,
+    "CI95": [
+      -0.23529411764705882,
+      0.3333333333333333
+    ]
+  },
+  {
+    "mode": "separated",
+    "condition": "flipped_outcomes",
+    "direction": "NF",
+    "include_unavailable": true,
+    "n": 20,
+    "clusters": 20,
+    "estimate": 0.65,
+    "CI95": [
+      0.45,
+      0.85
+    ]
+  },
+  {
+    "mode": "separated",
+    "condition": "stale_regime",
+    "direction": "FB",
+    "include_unavailable": true,
+    "n": 20,
+    "clusters": 16,
+    "estimate": -0.15,
+    "CI95": [
+      -0.3157894736842105,
+      0.0
+    ]
+  },
+  {
+    "mode": "separated",
+    "condition": "stale_regime",
+    "direction": "NF",
+    "include_unavailable": true,
+    "n": 20,
+    "clusters": 20,
+    "estimate": 0.1,
+    "CI95": [
+      0.0,
+      0.25
+    ]
+  },
+  {
+    "mode": "separated",
+    "condition": "no_history",
+    "direction": "FB",
+    "include_unavailable": true,
+    "n": 20,
+    "clusters": 16,
+    "estimate": -0.05,
+    "CI95": [
+      -0.16666666666666666,
+      0.0
+    ]
+  },
+  {
+    "mode": "separated",
+    "condition": "no_history",
+    "direction": "NF",
+    "include_unavailable": true,
+    "n": 20,
+    "clusters": 20,
+    "estimate": 0.25,
+    "CI95": [
+      0.1,
+      0.45
+    ]
+  },
+  {
+    "mode": "ordinary_effect_minus_separated_effect",
+    "condition": "fabricated_benign",
+    "direction": "FB",
+    "include_unavailable": true,
+    "n": 20,
+    "clusters": 16,
+    "estimate": 0.3,
+    "CI95": [
+      0.0,
+      0.5714285714285714
+    ]
+  },
+  {
+    "mode": "ordinary_effect_minus_separated_effect",
+    "condition": "fabricated_benign",
+    "direction": "NF",
+    "include_unavailable": true,
+    "n": 20,
+    "clusters": 20,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "mode": "ordinary_effect_minus_separated_effect",
+    "condition": "flipped_outcomes",
+    "direction": "FB",
+    "include_unavailable": true,
+    "n": 20,
+    "clusters": 16,
+    "estimate": 0.15,
+    "CI95": [
+      -0.05263157894736842,
+      0.3888888888888889
+    ]
+  },
+  {
+    "mode": "ordinary_effect_minus_separated_effect",
+    "condition": "flipped_outcomes",
+    "direction": "NF",
+    "include_unavailable": true,
+    "n": 20,
+    "clusters": 20,
+    "estimate": 0.05,
+    "CI95": [
+      -0.1,
+      0.25
+    ]
+  },
+  {
+    "mode": "ordinary_effect_minus_separated_effect",
+    "condition": "stale_regime",
+    "direction": "FB",
+    "include_unavailable": true,
+    "n": 20,
+    "clusters": 16,
+    "estimate": 0.0,
+    "CI95": [
+      -0.2,
+      0.2
+    ]
+  },
+  {
+    "mode": "ordinary_effect_minus_separated_effect",
+    "condition": "stale_regime",
+    "direction": "NF",
+    "include_unavailable": true,
+    "n": 20,
+    "clusters": 20,
+    "estimate": -0.1,
+    "CI95": [
+      -0.25,
+      0.0
+    ]
+  }
+]

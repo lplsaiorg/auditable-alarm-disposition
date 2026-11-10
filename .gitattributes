@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.png binary
+# Preserve original bytes, including line endings, in the frozen hash manifest.
+saved_results/** -text -whitespace

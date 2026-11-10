@@ -1,0 +1,16 @@
+{
+  "evaluations": 15,
+  "passes": 15,
+  "mean_coverage": 0.8268,
+  "coverage_range": [
+    0.796,
+    0.86
+  ],
+  "max_FB_upper": 0.03902627671162005,
+  "max_NF_upper": 0.08517605297428002,
+  "FB": 61,
+  "NF": 12,
+  "training_max_abs_feature_difference": 2.392195816436349e-12,
+  "recomputed_training_probability_max_difference": 0.05537158138101117,
+  "original_training_fit_preserved": true
+}

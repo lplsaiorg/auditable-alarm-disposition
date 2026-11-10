@@ -1,0 +1,972 @@
+{
+  "records": [
+    {
+      "model": "PCA",
+      "source": "test3",
+      "attack_labels_in_fit": false,
+      "n": 900,
+      "n_fault": 22,
+      "n_normal": 878,
+      "FB": 1,
+      "NF": 43,
+      "coverage": 0.5744444444444444,
+      "automatic": 517,
+      "fault_recognized": 20,
+      "normal_recognized": 453,
+      "abstain": 383,
+      "accepted_error": 0.0851063829787234,
+      "balanced_recognition": 0.7125181196935183,
+      "AUROC": 0.9459515427624766
+    },
+    {
+      "model": "PCA",
+      "source": "test4",
+      "attack_labels_in_fit": false,
+      "n": 330,
+      "n_fault": 14,
+      "n_normal": 316,
+      "FB": 0,
+      "NF": 4,
+      "coverage": 0.8212121212121212,
+      "automatic": 271,
+      "fault_recognized": 6,
+      "normal_recognized": 261,
+      "abstain": 59,
+      "accepted_error": 0.014760147601476014,
+      "balanced_recognition": 0.6272603978300181,
+      "AUROC": 0.989376130198915
+    },
+    {
+      "model": "PCA",
+      "source": "test5",
+      "attack_labels_in_fit": false,
+      "n": 770,
+      "n_fault": 27,
+      "n_normal": 743,
+      "FB": 6,
+      "NF": 21,
+      "coverage": 0.951948051948052,
+      "automatic": 733,
+      "fault_recognized": 16,
+      "normal_recognized": 690,
+      "abstain": 37,
+      "accepted_error": 0.036834924965893585,
+      "balanced_recognition": 0.760630078261303,
+      "AUROC": 0.9577787747370521
+    },
+    {
+      "model": "PCA",
+      "source": "heldout",
+      "attack_labels_in_fit": false,
+      "n": 1100,
+      "n_fault": 41,
+      "n_normal": 1059,
+      "FB": 6,
+      "NF": 25,
+      "coverage": 0.9127272727272727,
+      "automatic": 1004,
+      "fault_recognized": 22,
+      "normal_recognized": 951,
+      "abstain": 96,
+      "accepted_error": 0.030876494023904383,
+      "balanced_recognition": 0.7173011815103987,
+      "AUROC": 0.9579677099887145,
+      "episodes_detected": 14,
+      "episodes_total": 17
+    },
+    {
+      "model": "IsolationForest",
+      "source": "test3",
+      "attack_labels_in_fit": false,
+      "n": 900,
+      "n_fault": 22,
+      "n_normal": 878,
+      "FB": 1,
+      "NF": 38,
+      "coverage": 0.9955555555555555,
+      "automatic": 896,
+      "fault_recognized": 21,
+      "normal_recognized": 836,
+      "abstain": 4,
+      "accepted_error": 0.04352678571428571,
+      "balanced_recognition": 0.953354731828536,
+      "AUROC": 0.9867985090080762
+    },
+    {
+      "model": "IsolationForest",
+      "source": "test4",
+      "attack_labels_in_fit": false,
+      "n": 330,
+      "n_fault": 14,
+      "n_normal": 316,
+      "FB": 2,
+      "NF": 12,
+      "coverage": 0.9939393939393939,
+      "automatic": 328,
+      "fault_recognized": 12,
+      "normal_recognized": 302,
+      "abstain": 2,
+      "accepted_error": 0.042682926829268296,
+      "balanced_recognition": 0.9064195298372513,
+      "AUROC": 0.9349005424954793
+    },
+    {
+      "model": "IsolationForest",
+      "source": "test5",
+      "attack_labels_in_fit": false,
+      "n": 770,
+      "n_fault": 27,
+      "n_normal": 743,
+      "FB": 6,
+      "NF": 31,
+      "coverage": 0.9883116883116884,
+      "automatic": 761,
+      "fault_recognized": 21,
+      "normal_recognized": 703,
+      "abstain": 9,
+      "accepted_error": 0.04862023653088042,
+      "balanced_recognition": 0.8619709884851203,
+      "AUROC": 0.8988584816310254
+    },
+    {
+      "model": "IsolationForest",
+      "source": "heldout",
+      "attack_labels_in_fit": false,
+      "n": 1100,
+      "n_fault": 41,
+      "n_normal": 1059,
+      "FB": 8,
+      "NF": 43,
+      "coverage": 0.99,
+      "automatic": 1089,
+      "fault_recognized": 33,
+      "normal_recognized": 1005,
+      "abstain": 11,
+      "accepted_error": 0.046831955922865015,
+      "balanced_recognition": 0.8769432736820286,
+      "AUROC": 0.910523042907483,
+      "episodes_detected": 15,
+      "episodes_total": 17
+    },
+    {
+      "model": "Normal score fusion",
+      "source": "test3",
+      "attack_labels_in_fit": false,
+      "n": 900,
+      "n_fault": 22,
+      "n_normal": 878,
+      "FB": 1,
+      "NF": 41,
+      "coverage": 0.5655555555555556,
+      "automatic": 509,
+      "fault_recognized": 14,
+      "normal_recognized": 453,
+      "abstain": 391,
+      "accepted_error": 0.0825147347740668,
+      "balanced_recognition": 0.576154483329882,
+      "AUROC": 0.8804359080554981
+    },
+    {
+      "model": "Normal score fusion",
+      "source": "test4",
+      "attack_labels_in_fit": false,
+      "n": 330,
+      "n_fault": 14,
+      "n_normal": 316,
+      "FB": 0,
+      "NF": 4,
+      "coverage": 0.8121212121212121,
+      "automatic": 268,
+      "fault_recognized": 4,
+      "normal_recognized": 260,
+      "abstain": 62,
+      "accepted_error": 0.014925373134328358,
+      "balanced_recognition": 0.554249547920434,
+      "AUROC": 0.9853074141048824
+    },
+    {
+      "model": "Normal score fusion",
+      "source": "test5",
+      "attack_labels_in_fit": false,
+      "n": 770,
+      "n_fault": 27,
+      "n_normal": 743,
+      "FB": 5,
+      "NF": 22,
+      "coverage": 0.948051948051948,
+      "automatic": 730,
+      "fault_recognized": 16,
+      "normal_recognized": 687,
+      "abstain": 40,
+      "accepted_error": 0.036986301369863014,
+      "balanced_recognition": 0.7586112357310204,
+      "AUROC": 0.9529933702208266
+    },
+    {
+      "model": "Normal score fusion",
+      "source": "heldout",
+      "attack_labels_in_fit": false,
+      "n": 1100,
+      "n_fault": 41,
+      "n_normal": 1059,
+      "FB": 5,
+      "NF": 26,
+      "coverage": 0.9072727272727272,
+      "automatic": 998,
+      "fault_recognized": 20,
+      "normal_recognized": 947,
+      "abstain": 102,
+      "accepted_error": 0.031062124248496994,
+      "balanced_recognition": 0.6910223634814252,
+      "AUROC": 0.9554803196757181,
+      "episodes_detected": 13,
+      "episodes_total": 17
+    },
+    {
+      "model": "Logistic regression",
+      "source": "test3",
+      "attack_labels_in_fit": true,
+      "n": 900,
+      "n_fault": 22,
+      "n_normal": 878,
+      "FB": 1,
+      "NF": 42,
+      "coverage": 0.9944444444444445,
+      "automatic": 895,
+      "fault_recognized": 21,
+      "normal_recognized": 831,
+      "abstain": 5,
+      "accepted_error": 0.048044692737430165,
+      "balanced_recognition": 0.9505073514185132,
+      "AUROC": 0.9881963139366328
+    },
+    {
+      "model": "Logistic regression",
+      "source": "test4",
+      "attack_labels_in_fit": true,
+      "n": 330,
+      "n_fault": 14,
+      "n_normal": 316,
+      "FB": 0,
+      "NF": 178,
+      "coverage": 0.9939393939393939,
+      "automatic": 328,
+      "fault_recognized": 14,
+      "normal_recognized": 136,
+      "abstain": 2,
+      "accepted_error": 0.5426829268292683,
+      "balanced_recognition": 0.7151898734177216,
+      "AUROC": 1.0
+    },
+    {
+      "model": "Logistic regression",
+      "source": "test5",
+      "attack_labels_in_fit": true,
+      "n": 770,
+      "n_fault": 27,
+      "n_normal": 743,
+      "FB": 2,
+      "NF": 140,
+      "coverage": 0.9948051948051948,
+      "automatic": 766,
+      "fault_recognized": 25,
+      "normal_recognized": 599,
+      "abstain": 4,
+      "accepted_error": 0.185378590078329,
+      "balanced_recognition": 0.8660585215093963,
+      "AUROC": 0.9636608344549126
+    },
+    {
+      "model": "Logistic regression",
+      "source": "heldout",
+      "attack_labels_in_fit": true,
+      "n": 1100,
+      "n_fault": 41,
+      "n_normal": 1059,
+      "FB": 2,
+      "NF": 318,
+      "coverage": 0.9945454545454545,
+      "automatic": 1094,
+      "fault_recognized": 39,
+      "normal_recognized": 735,
+      "abstain": 6,
+      "accepted_error": 0.29250457038391225,
+      "balanced_recognition": 0.8226352518482691,
+      "AUROC": 0.9718556392362789,
+      "episodes_detected": 17,
+      "episodes_total": 17
+    },
+    {
+      "model": "Adapted ExtraTrees",
+      "source": "test3",
+      "attack_labels_in_fit": true,
+      "n": 900,
+      "n_fault": 22,
+      "n_normal": 878,
+      "FB": 0,
+      "NF": 1,
+      "coverage": 0.9955555555555555,
+      "automatic": 896,
+      "fault_recognized": 22,
+      "normal_recognized": 873,
+      "abstain": 4,
+      "accepted_error": 0.0011160714285714285,
+      "balanced_recognition": 0.9971526195899771,
+      "AUROC": 1.0
+    },
+    {
+      "model": "Adapted ExtraTrees",
+      "source": "test4",
+      "attack_labels_in_fit": true,
+      "n": 330,
+      "n_fault": 14,
+      "n_normal": 316,
+      "FB": 0,
+      "NF": 1,
+      "coverage": 0.9757575757575757,
+      "automatic": 322,
+      "fault_recognized": 14,
+      "normal_recognized": 307,
+      "abstain": 8,
+      "accepted_error": 0.003105590062111801,
+      "balanced_recognition": 0.985759493670886,
+      "AUROC": 1.0
+    },
+    {
+      "model": "Adapted ExtraTrees",
+      "source": "test5",
+      "attack_labels_in_fit": true,
+      "n": 770,
+      "n_fault": 27,
+      "n_normal": 743,
+      "FB": 2,
+      "NF": 3,
+      "coverage": 0.9896103896103896,
+      "automatic": 762,
+      "fault_recognized": 24,
+      "normal_recognized": 733,
+      "abstain": 8,
+      "accepted_error": 0.006561679790026247,
+      "balanced_recognition": 0.9377149693435023,
+      "AUROC": 0.9954139873386172
+    },
+    {
+      "model": "Adapted ExtraTrees",
+      "source": "heldout",
+      "attack_labels_in_fit": true,
+      "n": 1100,
+      "n_fault": 41,
+      "n_normal": 1059,
+      "FB": 2,
+      "NF": 4,
+      "coverage": 0.9854545454545455,
+      "automatic": 1084,
+      "fault_recognized": 38,
+      "normal_recognized": 1040,
+      "abstain": 16,
+      "accepted_error": 0.005535055350553505,
+      "balanced_recognition": 0.9544439070453028,
+      "AUROC": 0.99615375757157,
+      "episodes_detected": 17,
+      "episodes_total": 17
+    }
+  ],
+  "episodes": [
+    {
+      "model": "PCA",
+      "source": "test4",
+      "start": 2583,
+      "end": 2837,
+      "detected": false
+    },
+    {
+      "model": "PCA",
+      "source": "test4",
+      "start": 6300,
+      "end": 6562,
+      "detected": true
+    },
+    {
+      "model": "PCA",
+      "source": "test4",
+      "start": 14221,
+      "end": 14484,
+      "detected": true
+    },
+    {
+      "model": "PCA",
+      "source": "test4",
+      "start": 20702,
+      "end": 20960,
+      "detected": true
+    },
+    {
+      "model": "PCA",
+      "source": "test4",
+      "start": 31621,
+      "end": 31741,
+      "detected": true
+    },
+    {
+      "model": "PCA",
+      "source": "test5",
+      "start": 1560,
+      "end": 1732,
+      "detected": true
+    },
+    {
+      "model": "PCA",
+      "source": "test5",
+      "start": 9603,
+      "end": 9861,
+      "detected": true
+    },
+    {
+      "model": "PCA",
+      "source": "test5",
+      "start": 18908,
+      "end": 19164,
+      "detected": true
+    },
+    {
+      "model": "PCA",
+      "source": "test5",
+      "start": 24900,
+      "end": 25020,
+      "detected": false
+    },
+    {
+      "model": "PCA",
+      "source": "test5",
+      "start": 28089,
+      "end": 28292,
+      "detected": true
+    },
+    {
+      "model": "PCA",
+      "source": "test5",
+      "start": 35523,
+      "end": 35676,
+      "detected": true
+    },
+    {
+      "model": "PCA",
+      "source": "test5",
+      "start": 44585,
+      "end": 44664,
+      "detected": true
+    },
+    {
+      "model": "PCA",
+      "source": "test5",
+      "start": 51906,
+      "end": 51957,
+      "detected": true
+    },
+    {
+      "model": "PCA",
+      "source": "test5",
+      "start": 54671,
+      "end": 54912,
+      "detected": false
+    },
+    {
+      "model": "PCA",
+      "source": "test5",
+      "start": 83041,
+      "end": 83303,
+      "detected": true
+    },
+    {
+      "model": "PCA",
+      "source": "test5",
+      "start": 85800,
+      "end": 85920,
+      "detected": true
+    },
+    {
+      "model": "PCA",
+      "source": "test5",
+      "start": 88259,
+      "end": 88521,
+      "detected": true
+    },
+    {
+      "model": "IsolationForest",
+      "source": "test4",
+      "start": 2583,
+      "end": 2837,
+      "detected": true
+    },
+    {
+      "model": "IsolationForest",
+      "source": "test4",
+      "start": 6300,
+      "end": 6562,
+      "detected": true
+    },
+    {
+      "model": "IsolationForest",
+      "source": "test4",
+      "start": 14221,
+      "end": 14484,
+      "detected": true
+    },
+    {
+      "model": "IsolationForest",
+      "source": "test4",
+      "start": 20702,
+      "end": 20960,
+      "detected": true
+    },
+    {
+      "model": "IsolationForest",
+      "source": "test4",
+      "start": 31621,
+      "end": 31741,
+      "detected": false
+    },
+    {
+      "model": "IsolationForest",
+      "source": "test5",
+      "start": 1560,
+      "end": 1732,
+      "detected": true
+    },
+    {
+      "model": "IsolationForest",
+      "source": "test5",
+      "start": 9603,
+      "end": 9861,
+      "detected": true
+    },
+    {
+      "model": "IsolationForest",
+      "source": "test5",
+      "start": 18908,
+      "end": 19164,
+      "detected": true
+    },
+    {
+      "model": "IsolationForest",
+      "source": "test5",
+      "start": 24900,
+      "end": 25020,
+      "detected": true
+    },
+    {
+      "model": "IsolationForest",
+      "source": "test5",
+      "start": 28089,
+      "end": 28292,
+      "detected": true
+    },
+    {
+      "model": "IsolationForest",
+      "source": "test5",
+      "start": 35523,
+      "end": 35676,
+      "detected": false
+    },
+    {
+      "model": "IsolationForest",
+      "source": "test5",
+      "start": 44585,
+      "end": 44664,
+      "detected": true
+    },
+    {
+      "model": "IsolationForest",
+      "source": "test5",
+      "start": 51906,
+      "end": 51957,
+      "detected": true
+    },
+    {
+      "model": "IsolationForest",
+      "source": "test5",
+      "start": 54671,
+      "end": 54912,
+      "detected": true
+    },
+    {
+      "model": "IsolationForest",
+      "source": "test5",
+      "start": 83041,
+      "end": 83303,
+      "detected": true
+    },
+    {
+      "model": "IsolationForest",
+      "source": "test5",
+      "start": 85800,
+      "end": 85920,
+      "detected": true
+    },
+    {
+      "model": "IsolationForest",
+      "source": "test5",
+      "start": 88259,
+      "end": 88521,
+      "detected": true
+    },
+    {
+      "model": "Normal score fusion",
+      "source": "test4",
+      "start": 2583,
+      "end": 2837,
+      "detected": false
+    },
+    {
+      "model": "Normal score fusion",
+      "source": "test4",
+      "start": 6300,
+      "end": 6562,
+      "detected": true
+    },
+    {
+      "model": "Normal score fusion",
+      "source": "test4",
+      "start": 14221,
+      "end": 14484,
+      "detected": true
+    },
+    {
+      "model": "Normal score fusion",
+      "source": "test4",
+      "start": 20702,
+      "end": 20960,
+      "detected": true
+    },
+    {
+      "model": "Normal score fusion",
+      "source": "test4",
+      "start": 31621,
+      "end": 31741,
+      "detected": false
+    },
+    {
+      "model": "Normal score fusion",
+      "source": "test5",
+      "start": 1560,
+      "end": 1732,
+      "detected": true
+    },
+    {
+      "model": "Normal score fusion",
+      "source": "test5",
+      "start": 9603,
+      "end": 9861,
+      "detected": true
+    },
+    {
+      "model": "Normal score fusion",
+      "source": "test5",
+      "start": 18908,
+      "end": 19164,
+      "detected": true
+    },
+    {
+      "model": "Normal score fusion",
+      "source": "test5",
+      "start": 24900,
+      "end": 25020,
+      "detected": false
+    },
+    {
+      "model": "Normal score fusion",
+      "source": "test5",
+      "start": 28089,
+      "end": 28292,
+      "detected": true
+    },
+    {
+      "model": "Normal score fusion",
+      "source": "test5",
+      "start": 35523,
+      "end": 35676,
+      "detected": true
+    },
+    {
+      "model": "Normal score fusion",
+      "source": "test5",
+      "start": 44585,
+      "end": 44664,
+      "detected": true
+    },
+    {
+      "model": "Normal score fusion",
+      "source": "test5",
+      "start": 51906,
+      "end": 51957,
+      "detected": true
+    },
+    {
+      "model": "Normal score fusion",
+      "source": "test5",
+      "start": 54671,
+      "end": 54912,
+      "detected": false
+    },
+    {
+      "model": "Normal score fusion",
+      "source": "test5",
+      "start": 83041,
+      "end": 83303,
+      "detected": true
+    },
+    {
+      "model": "Normal score fusion",
+      "source": "test5",
+      "start": 85800,
+      "end": 85920,
+      "detected": true
+    },
+    {
+      "model": "Normal score fusion",
+      "source": "test5",
+      "start": 88259,
+      "end": 88521,
+      "detected": true
+    },
+    {
+      "model": "Logistic regression",
+      "source": "test4",
+      "start": 2583,
+      "end": 2837,
+      "detected": true
+    },
+    {
+      "model": "Logistic regression",
+      "source": "test4",
+      "start": 6300,
+      "end": 6562,
+      "detected": true
+    },
+    {
+      "model": "Logistic regression",
+      "source": "test4",
+      "start": 14221,
+      "end": 14484,
+      "detected": true
+    },
+    {
+      "model": "Logistic regression",
+      "source": "test4",
+      "start": 20702,
+      "end": 20960,
+      "detected": true
+    },
+    {
+      "model": "Logistic regression",
+      "source": "test4",
+      "start": 31621,
+      "end": 31741,
+      "detected": true
+    },
+    {
+      "model": "Logistic regression",
+      "source": "test5",
+      "start": 1560,
+      "end": 1732,
+      "detected": true
+    },
+    {
+      "model": "Logistic regression",
+      "source": "test5",
+      "start": 9603,
+      "end": 9861,
+      "detected": true
+    },
+    {
+      "model": "Logistic regression",
+      "source": "test5",
+      "start": 18908,
+      "end": 19164,
+      "detected": true
+    },
+    {
+      "model": "Logistic regression",
+      "source": "test5",
+      "start": 24900,
+      "end": 25020,
+      "detected": true
+    },
+    {
+      "model": "Logistic regression",
+      "source": "test5",
+      "start": 28089,
+      "end": 28292,
+      "detected": true
+    },
+    {
+      "model": "Logistic regression",
+      "source": "test5",
+      "start": 35523,
+      "end": 35676,
+      "detected": true
+    },
+    {
+      "model": "Logistic regression",
+      "source": "test5",
+      "start": 44585,
+      "end": 44664,
+      "detected": true
+    },
+    {
+      "model": "Logistic regression",
+      "source": "test5",
+      "start": 51906,
+      "end": 51957,
+      "detected": true
+    },
+    {
+      "model": "Logistic regression",
+      "source": "test5",
+      "start": 54671,
+      "end": 54912,
+      "detected": true
+    },
+    {
+      "model": "Logistic regression",
+      "source": "test5",
+      "start": 83041,
+      "end": 83303,
+      "detected": true
+    },
+    {
+      "model": "Logistic regression",
+      "source": "test5",
+      "start": 85800,
+      "end": 85920,
+      "detected": true
+    },
+    {
+      "model": "Logistic regression",
+      "source": "test5",
+      "start": 88259,
+      "end": 88521,
+      "detected": true
+    },
+    {
+      "model": "Adapted ExtraTrees",
+      "source": "test4",
+      "start": 2583,
+      "end": 2837,
+      "detected": true
+    },
+    {
+      "model": "Adapted ExtraTrees",
+      "source": "test4",
+      "start": 6300,
+      "end": 6562,
+      "detected": true
+    },
+    {
+      "model": "Adapted ExtraTrees",
+      "source": "test4",
+      "start": 14221,
+      "end": 14484,
+      "detected": true
+    },
+    {
+      "model": "Adapted ExtraTrees",
+      "source": "test4",
+      "start": 20702,
+      "end": 20960,
+      "detected": true
+    },
+    {
+      "model": "Adapted ExtraTrees",
+      "source": "test4",
+      "start": 31621,
+      "end": 31741,
+      "detected": true
+    },
+    {
+      "model": "Adapted ExtraTrees",
+      "source": "test5",
+      "start": 1560,
+      "end": 1732,
+      "detected": true
+    },
+    {
+      "model": "Adapted ExtraTrees",
+      "source": "test5",
+      "start": 9603,
+      "end": 9861,
+      "detected": true
+    },
+    {
+      "model": "Adapted ExtraTrees",
+      "source": "test5",
+      "start": 18908,
+      "end": 19164,
+      "detected": true
+    },
+    {
+      "model": "Adapted ExtraTrees",
+      "source": "test5",
+      "start": 24900,
+      "end": 25020,
+      "detected": true
+    },
+    {
+      "model": "Adapted ExtraTrees",
+      "source": "test5",
+      "start": 28089,
+      "end": 28292,
+      "detected": true
+    },
+    {
+      "model": "Adapted ExtraTrees",
+      "source": "test5",
+      "start": 35523,
+      "end": 35676,
+      "detected": true
+    },
+    {
+      "model": "Adapted ExtraTrees",
+      "source": "test5",
+      "start": 44585,
+      "end": 44664,
+      "detected": true
+    },
+    {
+      "model": "Adapted ExtraTrees",
+      "source": "test5",
+      "start": 51906,
+      "end": 51957,
+      "detected": true
+    },
+    {
+      "model": "Adapted ExtraTrees",
+      "source": "test5",
+      "start": 54671,
+      "end": 54912,
+      "detected": true
+    },
+    {
+      "model": "Adapted ExtraTrees",
+      "source": "test5",
+      "start": 83041,
+      "end": 83303,
+      "detected": true
+    },
+    {
+      "model": "Adapted ExtraTrees",
+      "source": "test5",
+      "start": 85800,
+      "end": 85920,
+      "detected": true
+    },
+    {
+      "model": "Adapted ExtraTrees",
+      "source": "test5",
+      "start": 88259,
+      "end": 88521,
+      "detected": true
+    }
+  ],
+  "protocol": "All models use the same strict-past 790-feature event representation and test3 threshold calibration. Normal-only models fit on train1, supervised models also use test1/test2. Original ExtraTrees model remains the primary method."
+}

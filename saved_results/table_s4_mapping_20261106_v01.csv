@@ -1,0 +1,9 @@
+table_row,strategy,predictions,results,passes,coverage_pct,max_FB_upper_pct,max_NF_upper_pct
+Fixed model nominal,fixed_nominal_same_calibration,calibration_predictions.csv,calibration_followup.json,5,95.83,7.02,17.62
+"Margin, 100 groups",margin_cal100,calibration_predictions.csv,calibration_followup.json,15,84.37,4.23,7.04
+"Margin, 200 groups",margin_cal200,calibration_predictions.csv,calibration_followup.json,14,90.03,4.23,11.28
+"Margin, 400 groups",margin_cal400,calibration_predictions.csv,calibration_followup.json,13,91.53,4.23,13.89
+Final margin calibration,guarded_margin_cal400,calibration_predictions.csv,calibration_followup.json,15,87.71,4.23,7.04
+Candidate family nominal,family_nominal,tep_predictions.csv,tep_results.json,3,97.17,7.62,15.16
+Candidate family margin,family_margin,tep_predictions.csv,tep_results.json,14,87.01,5.49,7.04
+Family plus specialist,specialist_margin,tep_predictions.csv,tep_results.json,14,87.11,5.49,7.04

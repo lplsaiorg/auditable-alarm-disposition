@@ -1,0 +1,9 @@
+# Numerical reruns only. Saved-result verification uses the Python standard library.
+# Compatibility ranges, not a claim that every version combination has been tested.
+# The observed original environment is recorded in code/original_environment.json.
+numpy>=2.0,<3
+pandas>=2.2,<4
+scipy>=1.12,<2
+scikit-learn>=1.4,<2
+joblib>=1.3,<2
+pyreadr>=0.5,<0.6

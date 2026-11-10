@@ -1,0 +1,135 @@
+{
+  "source_split": "Testing",
+  "historical_case_split": "Training",
+  "queries": 40,
+  "distinct_query_runs": 35,
+  "selection": "v2 stability-cohort sampling (seed 20261106), then 20 normal records sampled with seed 20261107 and the first retained record of each fault 1-20; reused in v3 before v4 grouped calibration follow-up. No new queries selected for this revision.",
+  "per_fold": [
+    {
+      "seed": 20261107,
+      "fold": 0,
+      "evaluation_query_events": 6,
+      "evaluation_query_runs": 9,
+      "calibration_query_events": 19,
+      "calibration_query_runs": 26
+    },
+    {
+      "seed": 20261107,
+      "fold": 1,
+      "evaluation_query_events": 7,
+      "evaluation_query_runs": 8,
+      "calibration_query_events": 15,
+      "calibration_query_runs": 27
+    },
+    {
+      "seed": 20261107,
+      "fold": 2,
+      "evaluation_query_events": 4,
+      "evaluation_query_runs": 6,
+      "calibration_query_events": 18,
+      "calibration_query_runs": 29
+    },
+    {
+      "seed": 20261107,
+      "fold": 3,
+      "evaluation_query_events": 3,
+      "evaluation_query_runs": 5,
+      "calibration_query_events": 21,
+      "calibration_query_runs": 30
+    },
+    {
+      "seed": 20261107,
+      "fold": 4,
+      "evaluation_query_events": 3,
+      "evaluation_query_runs": 7,
+      "calibration_query_events": 21,
+      "calibration_query_runs": 28
+    },
+    {
+      "seed": 20261108,
+      "fold": 0,
+      "evaluation_query_events": 2,
+      "evaluation_query_runs": 6,
+      "calibration_query_events": 21,
+      "calibration_query_runs": 29
+    },
+    {
+      "seed": 20261108,
+      "fold": 1,
+      "evaluation_query_events": 7,
+      "evaluation_query_runs": 8,
+      "calibration_query_events": 17,
+      "calibration_query_runs": 27
+    },
+    {
+      "seed": 20261108,
+      "fold": 2,
+      "evaluation_query_events": 4,
+      "evaluation_query_runs": 7,
+      "calibration_query_events": 21,
+      "calibration_query_runs": 28
+    },
+    {
+      "seed": 20261108,
+      "fold": 3,
+      "evaluation_query_events": 6,
+      "evaluation_query_runs": 9,
+      "calibration_query_events": 21,
+      "calibration_query_runs": 26
+    },
+    {
+      "seed": 20261108,
+      "fold": 4,
+      "evaluation_query_events": 5,
+      "evaluation_query_runs": 5,
+      "calibration_query_events": 21,
+      "calibration_query_runs": 30
+    },
+    {
+      "seed": 20261109,
+      "fold": 0,
+      "evaluation_query_events": 3,
+      "evaluation_query_runs": 6,
+      "calibration_query_events": 20,
+      "calibration_query_runs": 29
+    },
+    {
+      "seed": 20261109,
+      "fold": 1,
+      "evaluation_query_events": 6,
+      "evaluation_query_runs": 7,
+      "calibration_query_events": 22,
+      "calibration_query_runs": 28
+    },
+    {
+      "seed": 20261109,
+      "fold": 2,
+      "evaluation_query_events": 5,
+      "evaluation_query_runs": 8,
+      "calibration_query_events": 17,
+      "calibration_query_runs": 27
+    },
+    {
+      "seed": 20261109,
+      "fold": 3,
+      "evaluation_query_events": 6,
+      "evaluation_query_runs": 8,
+      "calibration_query_events": 17,
+      "calibration_query_runs": 27
+    },
+    {
+      "seed": 20261109,
+      "fold": 4,
+      "evaluation_query_events": 4,
+      "evaluation_query_runs": 6,
+      "calibration_query_events": 18,
+      "calibration_query_runs": 29
+    }
+  ],
+  "evaluation_unique_query_events": 30,
+  "evaluation_event_occurrences": 71,
+  "evaluation_unique_query_runs": 35,
+  "calibration_unique_query_events": 38,
+  "calibration_event_occurrences": 289,
+  "calibration_unique_query_runs": 35
+}

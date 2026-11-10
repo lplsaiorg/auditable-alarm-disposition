@@ -1,0 +1,53 @@
+{
+  "policies": {
+    "PCA": {
+      "lo": 1.540045808336704,
+      "hi": 9.025201197333232,
+      "coverage": 0.5744444444444444,
+      "FB_rate": 0.045454545454545456,
+      "NF_rate": 0.0489749430523918,
+      "balanced_recognition": 0.7125181196935183,
+      "fault_recall": 0.9090909090909091
+    },
+    "IsolationForest": {
+      "lo": 0.49574744263137843,
+      "hi": 0.49819609845379415,
+      "coverage": 0.9955555555555555,
+      "FB_rate": 0.045454545454545456,
+      "NF_rate": 0.04328018223234624,
+      "balanced_recognition": 0.953354731828536,
+      "fault_recall": 0.9545454545454546
+    },
+    "Normal score fusion": {
+      "lo": 7.731198889647738,
+      "hi": 26.296924059220448,
+      "coverage": 0.5655555555555556,
+      "FB_rate": 0.045454545454545456,
+      "NF_rate": 0.04669703872437358,
+      "balanced_recognition": 0.576154483329882,
+      "fault_recall": 0.6363636363636364
+    },
+    "Logistic regression": {
+      "lo": 0.0003136669182203042,
+      "hi": 0.0003453631557665351,
+      "coverage": 0.9944444444444445,
+      "FB_rate": 0.045454545454545456,
+      "NF_rate": 0.04783599088838269,
+      "balanced_recognition": 0.9505073514185132,
+      "fault_recall": 0.9545454545454546
+    },
+    "Adapted ExtraTrees": {
+      "lo": 0.1367654681152456,
+      "hi": 0.2504215483232507,
+      "coverage": 0.9955555555555555,
+      "FB_rate": 0.0,
+      "NF_rate": 0.0011389521640091116,
+      "balanced_recognition": 0.9971526195899771,
+      "fault_recall": 1.0
+    }
+  },
+  "train_windows": 2790,
+  "normal_fit_windows": 1440,
+  "calibration_windows": 900,
+  "code_hash": "77c9b776a4991d6c194fcc1286e8765ae61eed0c34122c3cfd1c97a4b4785771"
+}
